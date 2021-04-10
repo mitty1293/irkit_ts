@@ -6,34 +6,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-		<title>irkit_flask</title>
+		<title>irkit_ts</title>
     </head>
     <body>
-        <div class="container-fluid">
-            <p>
-                <a class="btn btn-warning btn-lg btn-block" href="/light" role="button">
-                    <img src="./img/light.png">
-                    <span class="display-4">Light</span>
-                </a>
-            </p>
-            <p>
-                <a class="btn btn-primary btn-lg btn-block" href="/ac-on" role="button">
-                    <img src="./img/ac_heater.png">
-                    <span class="display-4">AC 28&#x2103;</span>
-                </a>
-                <a class="btn btn-primary btn-lg btn-block" href="/ac-off" role="button">
-                    <span class="display-4">OFF</span>
-                </a>
-            </p>
-            <p>
-                <a class="btn btn-danger btn-lg btn-block" href="/heater-on" role="button">
-                    <img src="./img/ac_heater.png">
-                    <span class="display-4">HEATER 22&#x2103;</span>
-                </a>
-                <a class="btn btn-danger btn-lg btn-block" href="/heater-off" role="button">
-                    <span class="display-4">OFF</span>
-                </a>
-            </p>
+        <!--<div class="container-fluid">-->
+        <div class="d-grid gap-2">
+            <button class="btn btn-warning btn-lg" type="button" id="light_btn">
+                <img src="./img/light.png">
+                <span class="display-4">Light</span>
+            </button>
+            <button class="btn btn-primary btn-lg" type="button" id="ac_on_btn">
+                <img src="./img/ac_heater.png">
+                <span class="display-4">AC 28&#x2103;</span>
+            </button>
+            <button class="btn btn-primary btn-lg" type="button" id="ac_off_btn">
+                <span class="display-4">OFF</span>
+            </button>
+            <button class="btn btn-danger btn-lg" type="button" id="heater_on_btn">
+                <img src="./img/ac_heater.png">
+                <span class="display-4">HEATER 22&#x2103;</span>
+            </button>
+            <button class="btn btn-danger btn-lg" type="button" id="heater_off_btn">
+                <span class="display-4">OFF</span>
+            </button>
         </div>
         <!-- Optional JavaScript -->
         <!-- Bootstrap Bundle with Popper -->
