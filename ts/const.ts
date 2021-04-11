@@ -11,6 +11,7 @@ export namespace SystemConst {
     /* IRkit Parameterts */
     export namespace IrkitPara {
         export const POST_URL = "https://api.getirkit.com/1/messages";
+        //export const POST_URL = "http://192.168.0.122:8080/messages";
         export const CLIKEY = "3A12CD318064465BA02776809A5E6DC3";
         export const DEVID = "638759153A8E4E00AE331073B13782B0";
     }
