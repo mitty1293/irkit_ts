@@ -15,8 +15,8 @@ light_btn.addEventListener('click', () => {
     })
 });
 ac_on_btn.addEventListener('click', () => {
-    msg = JSON.stringify(SystemConst.Signals.AC_ON_SIG);
-    body = {"clientkey":SystemConst.IrkitPara.CLIKEY, 
+    const msg = JSON.stringify(SystemConst.Signals.AC_ON_SIG);
+    const body = {"clientkey":SystemConst.IrkitPara.CLIKEY, 
             "deviceid":SystemConst.IrkitPara.DEVID,
             "message":msg
     };
