@@ -1,4 +1,4 @@
-import {SystemConst} form './const.js';
+import {SystemConst} from './const.js';
 //DOM
 const light_btn: HTMLButtonElement = <HTMLButtonElement>document.getElementById("light_btn");
 const ac_on_btn: HTMLButtonElement = <HTMLButtonElement>document.getElementById("ac_on_btn");
